@@ -10,7 +10,7 @@ Repository ส่วนตัวของวิชา **GI113 Computer Programmi
 ชื่อ-นามสกุล: กองทัพ พนาวาส
 Section: 129B
 รหัสนักศึกษา: 1690701337
-เลขที่: 
+เลขที่: N/A
 ```
 
 ## กติกาการตั้งชื่อ (Naming Convention)
