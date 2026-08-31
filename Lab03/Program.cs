@@ -1,4 +1,12 @@
-﻿namespace Lab03
+﻿/*
+ * Student ID :1690701337
+ * Name       :Gongtap Panawas
+ * Section    :129B
+ * No.        :N/A
+ * Course     : GI113 Computer Programming (GI)
+ */
+
+namespace Lab03
 {
     internal class Program
     {
