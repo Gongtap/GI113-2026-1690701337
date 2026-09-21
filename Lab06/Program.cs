@@ -32,7 +32,7 @@ namespace Lab06
             //if (isPoisoned) { } // ได้เท็จ เพราะ isPoisoned = false
             //if (!isPoisoned) { } // ได้จริง เพราะ isPoisoned = false
             //bool hasKey = false;
-          
+
 
             //Console.Write("Your level (1-99): ");
             //bool ok = int.TryParse(Console.ReadLine(), out int level);
@@ -60,6 +60,12 @@ namespace Lab06
             //{
             //    Console.WriteLine("The door stays shut.");
             //}
+            int heroHp = 123;
+            int monHp = 200;
+            int heroAtk = 75;
+            int potionBuffDmg = 25;
+            int potionHp = 50;
+            string heroName = "Youypouy";
 
         }
     }
