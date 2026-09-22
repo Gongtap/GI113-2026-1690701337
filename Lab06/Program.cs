@@ -67,6 +67,9 @@ namespace Lab06
             int potionHp = 50;
             string heroName = "Youypouy";
 
+            Console.WriteLine("Game title: Youypouy the slayer");
+            Console.WriteLine("found the monster");
+
         }
     }
 }
