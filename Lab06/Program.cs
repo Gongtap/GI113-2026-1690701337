@@ -63,7 +63,7 @@ namespace Lab06
             int heroHp = 123;
             int monHp = 200;
             int heroAtk = 75;
-            int potionBuffDmg = 25;
+            int MagicSpell = 50;
             int potionHp = 50;
             string heroName = "Youypouy";
 
