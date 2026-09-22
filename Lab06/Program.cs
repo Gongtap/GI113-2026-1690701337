@@ -69,7 +69,50 @@ namespace Lab06
 
             Console.WriteLine("Game title: Youypouy the slayer");
             Console.WriteLine("found the monster");
+            Console.WriteLine("|===================================|      |====|| ");
+            Console.WriteLine("|| Game title: Youypouy the slayer ||      ||      ");
+            Console.WriteLine("||       Found the monster         ||      |====|| ");
+            Console.WriteLine("||  Action1: Attack                ||           || ");
+            Console.WriteLine("||  Action2: Cast Magic Spell      ||      ||====| ");
+            Console.WriteLine("||  Action3: Used Potion HP        ||");
+            Console.WriteLine("|===================================|");
 
+            Console.Write($"{heroName} Choose Action[1-3]: ");
+            bool isInputValid = int.TryParse(Console.ReadLine(), out int choice);
+
+            if (isInputValid == false || choice < 1 || choice > 3)
+            {
+                Console.WriteLine("Invalid Input, Enter Action Between 1 to 3");
+            }
+            else if (choice == 1)
+            {
+                monHp -= heroAtk;
+                if (monHp <= 0)
+                {
+                    Console.WriteLine($"Youypouy attacked the monster with {heroAtk} DMG, Monster is dead");
+                }
+                else
+                {
+                    Console.WriteLine($"Youypouy attacked the monster with {heroAtk} DMG, Monster current Hp {monHp} HP left");
+                }
+            }
+            else if (choice == 2)
+            {
+                monHp -= MagicSpell;
+                if (monHp <= 0)
+                {
+                    Console.WriteLine($"Youypouy attacked the monster with {MagicSpell} DMG, Monster is dead");
+                }
+                else
+                {
+                    Console.WriteLine($"Youypouy attacked the monster with {MagicSpell} DMG, Monster current Hp {monHp} HP left");
+                }
+            }
+            else if (choice == 3)
+            {
+                heroHp += potionHp;
+                Console.WriteLine($"Youypouy Drank a Potion of HP, Regen HP now {heroHp} HP");
+            }
         }
     }
 }
