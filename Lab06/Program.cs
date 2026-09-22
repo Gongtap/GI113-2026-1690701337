@@ -109,7 +109,8 @@ namespace Lab06
             else if (choice == 3)
             {
                 heroHp += potionHp;
-                Console.WriteLine($"Youypouy Drank a Potion of HP, Regen HP now {heroHp} HP");
+                Console.WriteLine($"Youypouy Drank a Potion of HP, Regen HP now {heroHp} HP"); 
+                Console
             }
         }
     }
